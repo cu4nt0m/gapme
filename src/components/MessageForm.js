@@ -6,6 +6,7 @@ const MessageForm = (props) => {
   const [value, setValue] = useState("");
   const { chatId, creds } = props;
 
+  console.log(props);
   const handleSubmit = (event) => {
     event.preventDefault();
 
